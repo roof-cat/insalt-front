@@ -1,9 +1,10 @@
 {
   "name": "@roof-cat/insalt-front",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "start": "webpack serve",
-    "build": "webpack --mode=production"
+    "build": "webpack --mode=production",
+    "build:dev": "webpack --mode=development"
   },
   "devDependencies": {
     "@babel/core": "^7.16.12",
@@ -13,6 +14,7 @@
     "babel-loader": "^8.2.3",
     "core-js": "^3.21.0",
     "css-loader": "^6.5.1",
+    "dotenv": "^16.0.0",
     "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^2.5.3",
     "regenerator-runtime": "^0.13.9",
