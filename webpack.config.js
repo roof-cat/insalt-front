@@ -55,10 +55,7 @@ const prodConfig = {
 			export: 'default',
 		},
 		assetModuleFilename: '[name][ext][query]',
-	},
-	plugins: [new HtmlWebpackPlugin({
-		chunks : ['browser'],
-	})],
+	}
 }
 
 module.exports = ({WEBPACK_SERVE}) => merge(config, WEBPACK_SERVE ? devConfig : prodConfig);
